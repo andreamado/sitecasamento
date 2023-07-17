@@ -1,0 +1,42 @@
+{
+    "navbar-items": [
+        {
+            "name": "Home",
+            "active": true,
+            "disabled": false,
+            "link": "#"
+        },{
+            "name": "A nossa história",
+            "active": false,
+            "disabled": true,
+            "link": "historia.html"
+        },{
+            "name": "Como chegar",
+            "active": false,
+            "disabled": false,
+            "link": "comochegar.html"
+        },{
+            "name": "Outras informações",
+            "active": false,
+            "disabled": true,
+            "link": "outrasinformacoes.html"
+        },{
+            "name": "Fotos",
+            "active": false,
+            "disabled": true,
+            "link": "fotos.html"
+        }
+    ],
+    "languages": [
+        {
+            "name": "Português",
+            "active": true,
+            "link": "#"
+        },
+        {
+            "name": "English",
+            "active": false,
+            "link": "index_en.html"
+        }
+    ]
+}
