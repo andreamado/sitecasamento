@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Casamento Filipa e André</title>
+
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+
+  </head>
+  <body onload="init();">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-current="page" href="historia.html">A nossa história</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="comochegar.html">Como chegar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="outrasinformacoes.html">Outras informações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-current="page" href="fotos.html">Fotos (a seguir ao casamento)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                </li>
+                </ul>
+                <div class="btn-group" role="group" aria-label="Language">
+                <a href="#" type="button" class="btn btn-primary active">Português</a>
+                <a href="contact.html" type="button" class="btn btn-primary">English</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container px-4 py-5 my-5">
+      <h1 class="display-5 fw-bold text-body-emphasis text-center">Contacto</h1>
+      <p>Estás sempre à vontade para nos ligar ou enviar mensagem/email para os nossos contactos pessoais. Em alternativa, podes enviar-nos um email para <strong>ola@filipaeandre.net</strong> ou usar este formulário:</p>
+
+      <div class="m-7 row">
+        <div class="col col-lg-8">
+          <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            <input type="hidden" name="access_key" value="00b04433-f248-4ae8-8c53-4d581468995f" />
+            <div class="form-group row">
+              <div class="col-sm-2 mb-3">
+                <label for="subject" class="col-sm-2 col-form-label col-form-label-lg">Assunto</label>
+              </div>
+              <div class="col-sm-10 mb-3">
+                <input name="subject" value="" required class="form-control form-control-lg" />
+              </div>
+            </div>
+            <input type="checkbox" name="botcheck" id="" style="display: none;" />
+  
+            <div class="mb-6 form-group row">
+              <div class="col-sm-2 mb-3">
+                <label for="name" class="col-sm-2 col-form-label col-form-label-lg">Nome</label>
+              </div>
+              <div class="col-sm-10 mb-3">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder=""
+                  required
+                  class="form-control form-control-lg"
+                />
+              </div>
+            </div>
+            <div class="mb-6 form-group row">
+              <div class="col-sm-2 mb-3">
+                <label for="email" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+              </div>
+              <div class="col-sm-10 mb-3">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder=""
+                  required
+                  class="form-control form-control-lg"
+                />
+              </div>
+            </div>
+            <div class="mb-6 form-group row">
+              <div class="col mb-3">
+                <label for="message" class="col-sm-2 col-form-label col-form-label-lg">Mensagem</label>
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder=""
+                  class="form-control form-control-lg"
+                  required
+                ></textarea>  
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">
+              Enviar
+            </button>
+            <p class="text-base text-center text-gray-400" id="result"></p>  
+        </div>
+        </form>
+      </div>
+
+    </div>
+
+
+    <!-- access key: 00b04433-f248-4ae8-8c53-4d581468995f -->
+
+    <div class="flex items-center min-h-screen bg-gray-50 dark:bg-gray-900">
+      <div class="container">
+      </div>
+    </div>
+    <script src="includes/form.js" async defer></script>
+    <!-- <script src="https://web3forms.com/client/script.js" async defer></script> -->
+
+    <!-- scripts -->
+    <script src="includes/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
