@@ -6,8 +6,8 @@ navbaritems = [
         'en': ['Home', 'index_en'],
         'disabled': False
     },{
-        'pt': ['A nossa história', 'historia'],
-        'en': ['Our story', 'story'],
+        'pt': ['A nossa história (brevemente!)', 'historia'],
+        'en': ['Our story (coming soon!)', 'story'],
         'disabled': True
     },{
         'pt': ['Como chegar', 'comochegar'],
