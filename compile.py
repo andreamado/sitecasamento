@@ -2,7 +2,7 @@ from os import system, remove
 
 navbaritems = [
     {
-        'pt': ['Home', 'index'],
+        'pt': ['Início', 'index'],
         'en': ['Home', 'index_en'],
         'disabled': False
     },{
