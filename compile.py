@@ -6,10 +6,6 @@ navbaritems = [
         'en': ['Home', 'index_en'],
         'disabled': False
     },{
-        'pt': ['A nossa história (brevemente!)', 'historia'],
-        'en': ['Our story (coming soon!)', 'story'],
-        'disabled': True
-    },{
         'pt': ['Como chegar', 'comochegar'],
         'en': ['How do I get there?', 'howdoigetthere'],
         'disabled': False
@@ -18,9 +14,9 @@ navbaritems = [
         'en': ['Other info', 'otherinfo'],
         'disabled': False
     },{
-        'pt': ['Fotos (a seguir ao casamento)', 'fotos'],
-        'en': ['Photos (after the wedding)', 'photos'],
-        'disabled': True
+        'pt': ['Fotos', 'fotos'],
+        'en': ['Photos', 'photos'],
+        'disabled': False
     },{
         'pt': ['Contacto', 'contacto'],
         'en': ['Talk to us', 'contact'],
